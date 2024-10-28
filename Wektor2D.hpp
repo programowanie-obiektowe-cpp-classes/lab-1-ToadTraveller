@@ -21,6 +21,7 @@ private:
     Informer info; 
 
 public:
+	Wektor2D(){x=0; y=0;}
 	//konstruktor
     Wektor2D(double x, double y): x(x), y(y){
         num_wek++;
